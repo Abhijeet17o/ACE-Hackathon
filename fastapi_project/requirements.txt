@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+requests
+python-multipart
+huggingface-hub
+python-dotenv
+google-api-python-client
+google-generativeai
+pandas
