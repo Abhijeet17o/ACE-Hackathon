@@ -4,7 +4,7 @@ from app.routes import video, image, gemini
 
 app = FastAPI()
 
-origins = ["http://localhost:3000", "https://your-nextjs-frontend.com"]
+origins = ["http://localhost:3000", "https://your-nextjs-frontend.com", "https://marketmaverick.vercel.app"]
 
 app.add_middleware(
     CORSMiddleware,
